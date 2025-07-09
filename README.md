@@ -27,7 +27,7 @@ This project develops a comprehensive credit risk assessment system that predict
 # 🎯 Problem Statement
 Credit card defaults cost financial institutions billions annually. This project tackles the challenge of predicting customer default behavior using historical payment patterns, demographic data, and financial indicators.
 
-# Project Architecture
+   graph TD
     A[Raw Data] --> B[Data Preprocessing]
     B --> C[Exploratory Data Analysis]
     C --> D[Feature Engineering]
@@ -39,3 +39,4 @@ Credit card defaults cost financial institutions billions annually. This project
     I --> J[Model Interpretability]
     J --> K[Final Predictions]
     K --> L[Business Insights]
+
